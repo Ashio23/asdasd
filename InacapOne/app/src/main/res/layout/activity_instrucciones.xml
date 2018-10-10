@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InstruccionesActivity">
+
+    <ImageView
+        android:layout_width="313dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:src="@drawable/inacap"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:layout_width="286dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_app"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+
+    <TextView
+        android:id="@+id/txv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txt_titulo"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="180dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txv_instrucciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:text="@string/txv_instrucciones"
+        />
+
+</LinearLayout>
